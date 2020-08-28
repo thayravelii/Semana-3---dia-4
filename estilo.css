@@ -1,0 +1,38 @@
+
+table,tr,th, td{
+    width: 800px;
+    margin: 2rem;
+   border: 1px solid black;
+   border-collapse: collapse;
+   padding-right: 0.5em 2em;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 14px;
+   text-align: center;
+}
+
+tr:hover{
+  background-color: rgb(134, 36, 85);
+  color: white
+}
+
+
+#filtro {
+    border: solid 2px rgb(143, 101, 122);
+  border-radius: 2px;
+
+}
+
+a {
+  text-decoration: none;
+  padding: 0.5em 0.5em;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  border: solid 2px rgb(143, 101, 122);
+  border-radius: 3px;
+  position: absolute;
+  left: 90%;
+}
+
+
+

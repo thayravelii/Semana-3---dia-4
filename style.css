@@ -1,0 +1,82 @@
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+   position: absolute;
+   top: 10em;
+   left: 30em;
+   
+}
+
+#novo{
+        position: absolute;
+        left: 15em;
+        color:  rgb(143, 101, 122);
+        font-size: 2em;
+        background-color: white;
+        border: double 10px rgb(143, 101, 122);
+        border-radius: 0.5em;
+   }
+
+a {
+    text-decoration: none;
+    padding: 0.5em 0.5em;
+    color: black;
+    font-size: 13px;
+    border: solid 2px rgb(143, 101, 122);
+    border-radius: 3px;
+    position: absolute;
+    left: 90%;
+}
+   #imagem{
+       width: 5em;
+       position: absolute;
+       right: 66%;
+       bottom: 82%;
+       
+       
+   }
+
+#botao {
+    padding: 1em 2em;
+    position: absolute;
+    left: 80%;
+    top: 90%;
+    border: solid 2px rgb(143, 101, 122);
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+textarea {
+    resize: none;
+    padding: 4em 8em;
+    border: dashed 2px rgb(143, 101, 122);
+    border-radius: 5px;
+    margin: 6px;
+    
+}
+
+#serie {
+    border: solid 1px rgb(143, 101, 122);
+    margin: 6px;
+}
+    
+
+#produto {
+    border: solid 1px rgb(143, 101, 122);
+    margin: 6px;
+  
+}
+
+#tipo { 
+    padding: 0.5em 3em;
+    border: solid 1px rgb(143, 101, 122);
+    border-radius: 4px;
+    margin: 6px;
+    
+}
+

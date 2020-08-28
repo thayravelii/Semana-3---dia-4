@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+     <section>
+         
+     <h2 id="novo">Cadastre um novo produto:</h2>
+     <a href="tabela.html">Consultar</a>
+
+     <img id="imagem" src="cadastro.png">
+     
+        </section>
+
+        <form>
+            <div>
+                    <label for="serie">Número de Série:</label>
+                </div>
+                <div>
+                    <input  type="text" placeholder="Ex: 123.456" id="serie" maxlength="7" oninput="minhaFunc(this.value)" >
+                </div>
+            </div>
+            <div>
+                <label for="nome">Nome do Produto:</label>
+            </div>
+            <div>
+                <input type="text" placeholder="Ex: Iphone 8" id="nome" >
+                
+            </div>
+            <div>
+            <label for="tipo">Tipo:</label>
+            </div>
+            <div>
+        <select id="tipo">
+            <option value= "opção0">Selecione...</option>
+            <option value= "opção1">Eletrônico</option>
+            <option value= "opção2">Utensilio</option>
+            <option value= "opçã3">Papelaria</option>
+        </select>
+        </div>
+        <div>
+            <label for="característica">Características:</label>
+            <div>
+            <textarea name="caracteristica do produto" id="caracteristica"></textarea>
+            </div>
+        </div>
+        
+
+
+        </form>
+        <div>
+            <button id="botao" onclick = "add(this.value)">Salvar</button>
+          
+              </div>
+            
+
+    <script src="script.js"></script>
+</body>
+</html>
